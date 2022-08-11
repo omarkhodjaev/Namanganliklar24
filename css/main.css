@@ -1,1 +1,41 @@
-/*# sourceMappingURL=main.css.map */
+.news {
+  background: #F6F6F6;
+  border-radius: 15px;
+  margin-left: 10px;
+  width: 392px;
+  padding: 20px 17px;
+}
+.news__heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.news__paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4A4B4C;
+}
+.news .links {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.news .link {
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5E5F61;
+}
+.news .link::before {
+  content: "";
+  background-image: url(../images/svgkb.png);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=main.css.map */
